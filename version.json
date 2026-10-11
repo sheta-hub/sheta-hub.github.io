@@ -1,0 +1,20 @@
+{
+ "version": "1.3.0",
+ "date": "2026-10-11",
+ "notes": [
+  "شكل جديد للبرنامج كله، فاتح وغامق",
+  "البرنامج بقى بيحدّث نفسه لوحده",
+  "زرار «ابعت تقرير مشكلة» في الإعدادات",
+  "تحسينات وإصلاحات صغيرة"
+ ],
+ "android": {
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.3.0/SHETA.apk",
+  "sha256": "84a20b7a5283cbf2a07eed784d7c0faeb46453ad4ab0cbdcca5b3e9f8e75d3fe",
+  "size": 4409516
+ },
+ "windows": {
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.3.0/SHETA-Setup-1.3.0.exe",
+  "sha256": "e5ca2b975e4012fc18bcb90c8e31f01f46bd3ac45f6cd9c5461b3d7e6cedc3db",
+  "size": 82178437
+ }
+}
