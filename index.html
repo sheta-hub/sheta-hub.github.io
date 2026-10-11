@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>تحميل SHETA</title>
+<style>
+@font-face{font-family:T;font-weight:500;src:url(fonts/tajawal-arabic-500-normal.woff2)}@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-arabic-800-normal.woff2)}
+@font-face{font-family:T;font-weight:500;src:url(fonts/tajawal-latin-500-normal.woff2);unicode-range:U+0000-00FF}@font-face{font-family:T;font-weight:800;src:url(fonts/tajawal-latin-800-normal.woff2);unicode-range:U+0000-00FF}
+*{box-sizing:border-box}body{margin:0;font-family:T,system-ui,sans-serif;color:#1A1B3A;background:linear-gradient(180deg,#EDEFFF 0%,#F7F3FF 45%,#FFF5EC 100%);min-height:100vh}
+.w{max-width:560px;margin:0 auto;padding:34px 18px 60px}.hd{text-align:center}.hd svg{display:block;margin:0 auto 10px}
+h1{margin:6px 0 2px;font-size:26px}.v{color:#7C7FA3;font-size:14px}
+.btn{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff;border-radius:22px;padding:16px 18px;margin:14px 0 0;box-shadow:0 12px 28px rgba(26,27,58,.18)}
+.btn svg{flex:none}.btn b{display:block;font-size:18px}.btn small{opacity:.85;font-size:13px}
+.a{background:linear-gradient(120deg,#0FA67F,#0B7D61)}.wn{background:linear-gradient(120deg,#1A1B3A 30%,#5B3FD0)}
+.card{background:rgba(255,255,255,.8);border-radius:22px;padding:16px 18px;margin:18px 0 0;box-shadow:0 4px 18px rgba(80,70,160,.08)}
+.card h2{font-size:17px;margin:0 0 6px}.card ol{margin:6px 0 0;padding-inline-start:22px;line-height:1.9;font-size:14.5px}
+.mut{color:#7C7FA3;font-size:13px;line-height:1.7}.notes li{font-size:14px}
+.ft{text-align:center;margin-top:24px}
+</style></head><body><div class="w">
+<div class="hd"><svg width="84" height="84" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="23" fill="#0B0D1A"/><text x="24" y="25" text-anchor="middle" font-family="Tajawal,Arial,sans-serif" font-weight="800" font-size="12.5" fill="#fff">SHE<tspan fill="#5B8CFF">TA</tspan></text><path d="M11 29.5q13 5 26 0" fill="none" stroke="#3E6BFF" stroke-width="1.8" stroke-linecap="round"/><text x="24" y="38.5" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.6" fill="#fff" letter-spacing=".6">TECHNOLOGY HUB</text></svg><h1>برنامج SHETA</h1><div class="v" id="ver">آخر نسخة</div></div>
+<a class="btn a" id="dlA" href="https://github.com/sheta-hub/sheta-hub.github.io/releases/latest/download/SHETA.apk">
+<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+<span><b>تحميل للموبايل</b><small id="sA">أندرويد · ملف APK</small></span></a>
+<a class="btn wn" id="dlW" href="https://github.com/sheta-hub/sheta-hub.github.io/releases/latest">
+<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+<span><b>تحميل للابتوب</b><small id="sW">ويندوز 10 و11</small></span></a>
+<div class="card" id="nw" hidden><h2>الجديد في النسخة دي</h2><ul class="notes" id="nl"></ul></div>
+<div class="card"><h2>تسطيب الموبايل</h2><ol>
+<li>دوس «تحميل للموبايل» واستنى لحد ما يخلص.</li>
+<li>افتح الملف من الإشعارات أو من التنزيلات.</li>
+<li>لو قالك «غير مسموح»، دوس «الإعدادات» وشغّل «السماح من هذا المصدر»، وارجع.</li>
+<li>دوس «تثبيت» أو «تحديث». بياناتك مش بتتمسح.</li></ol></div>
+<div class="card"><h2>تسطيب اللابتوب</h2><ol>
+<li>دوس «تحميل للابتوب» واستنى لحد ما يخلص.</li>
+<li>افتح الملف. لو ظهرت شاشة زرقا «Windows protected your PC»، دوس «More info» وبعدين «Run anyway».</li>
+<li>البرنامج هيتسطب ويفتح لوحده. بياناتك مش بتتمسح.</li></ol></div>
+<div class="card"><div class="mut">البرنامج بيحدّث نفسه لوحده بعد كده. محتاج تدخل بحساب المحل، ومن غيره محدش يقدر يشوف أي بيانات.</div></div>
+<div class="ft mut">SHETA Technology Hub</div>
+</div>
+<script>
+fetch('version.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(j=>{
+ document.getElementById('ver').textContent='آخر نسخة: '+j.version+(j.date?' · '+j.date:'');
+ if(j.android){document.getElementById('dlA').href=j.android.url;if(j.android.size)document.getElementById('sA').textContent='أندرويد · '+(j.android.size/1048576).toFixed(1)+' ميجا'}
+ if(j.windows){document.getElementById('dlW').href=j.windows.url;if(j.windows.size)document.getElementById('sW').textContent='ويندوز 10 و11 · '+Math.round(j.windows.size/1048576)+' ميجا'}
+ if(j.notes&&j.notes.length){const l=document.getElementById('nl');j.notes.forEach(n=>{const li=document.createElement('li');li.textContent=n;l.appendChild(li)});document.getElementById('nw').hidden=false}
+}).catch(()=>{});
+</script></body></html>
