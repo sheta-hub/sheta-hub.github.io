@@ -3,18 +3,23 @@
  "date": "2026-10-11",
  "notes": [
   "شكل جديد للبرنامج كله، فاتح وغامق",
+  "شكل خاص للابتوب: قايمة جنب، بحث سريع (Ctrl + K)، وزراير F1 لحد F4",
+  "إيراد النهارده متغطي لحد ما تعدّي عليه بالماوس أو تدوس عليه",
   "البرنامج بقى بيحدّث نفسه لوحده",
   "زرار «ابعت تقرير مشكلة» في الإعدادات",
   "تحسينات وإصلاحات صغيرة"
  ],
  "android": {
+  "v": "1.3.0",
+  "code": 4,
   "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.3.0/SHETA.apk",
-  "sha256": "84a20b7a5283cbf2a07eed784d7c0faeb46453ad4ab0cbdcca5b3e9f8e75d3fe",
-  "size": 4409516
+  "sha256": "b49c2acee3a37cb58321653a8e13598d47d5bee79e2567284ba43fa8771e4967",
+  "size": 4412304
  },
  "windows": {
+  "v": "1.3.0",
   "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.3.0/SHETA-Setup-1.3.0.exe",
-  "sha256": "e5ca2b975e4012fc18bcb90c8e31f01f46bd3ac45f6cd9c5461b3d7e6cedc3db",
-  "size": 82178437
+  "sha256": "3fa44e97475318795742f0041ce696891ec05167d2c2ac6fad398e4630a11e28",
+  "size": 82179700
  }
 }
