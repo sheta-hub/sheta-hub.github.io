@@ -2,19 +2,10 @@
  "version": "1.5.0",
  "date": "2026-10-12",
  "notes": [
-  "شكل جديد للابتوب: لوحات شغل للصيانة والأجهزة والخطوط",
-  "مفيش فلوس على الشاشة الرئيسية، الفلوس في الكاش والسجل والتقارير",
-  "نسخة احتياطية كل يوم على تليجرام وعلى حساب المحل",
-  "تنبيهات تليجرام: عجز الدرج ومسح أو تعديل حركات الفلوس",
-  "تذكير الآجل: فكّرني بعد، والرسالة جاهزة على الواتساب",
-  "مقارنة الشهر ده باللي فات، وأكتر حاجات اتباعت، والحاجات الواقفة",
-  "1.5.0 (approved by owner)",
-  "- Mobile: design-8 look (teal, flat white), full-width bottom bar",
-  "- Mobile home: work only, per box status chips (repairs / devices / lines), switch redraws only that box",
-  "- Smoothness: no glass blur, no fixed gradient background, no endless pulses, lighter shadows",
-  "draw work while scrolling: home 96 -> 52 ms, log 186 -> 36 ms (docs/perf_before.txt / perf_after.txt)",
-  "- Android full screen (status + nav bars hidden, swipe shows them), keyboard-aware margins, settings toggle \"الشاشة\"",
-  "- New test tests/t_v16.js (16); t_board regex fix"
+  "شكل جديد للموبايل بنفس ألوان اللابتوب",
+  "الرئيسية فيها الشغل بس: الصيانة والأجهزة والخطوط، وكل قسم فوقه الحالات بالعدد",
+  "التطبيق بقى أنعم وأسرع وانت بتنزل وبتتنقل",
+  "ملي الشاشة: شريط الساعة والزراير بيستخبوا، وتقدر ترجّعها من الإعدادات ← الشاشة"
  ],
  "android": {
   "v": "1.5.0",
