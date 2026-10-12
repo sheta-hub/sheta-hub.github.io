@@ -1,5 +1,5 @@
 {
- "version": "1.4.0",
+ "version": "1.5.0",
  "date": "2026-10-12",
  "notes": [
   "شكل جديد للابتوب: لوحات شغل للصيانة والأجهزة والخطوط",
@@ -7,19 +7,26 @@
   "نسخة احتياطية كل يوم على تليجرام وعلى حساب المحل",
   "تنبيهات تليجرام: عجز الدرج ومسح أو تعديل حركات الفلوس",
   "تذكير الآجل: فكّرني بعد، والرسالة جاهزة على الواتساب",
-  "مقارنة الشهر ده باللي فات، وأكتر حاجات اتباعت، والحاجات الواقفة"
+  "مقارنة الشهر ده باللي فات، وأكتر حاجات اتباعت، والحاجات الواقفة",
+  "1.5.0 (approved by owner)",
+  "- Mobile: design-8 look (teal, flat white), full-width bottom bar",
+  "- Mobile home: work only, per box status chips (repairs / devices / lines), switch redraws only that box",
+  "- Smoothness: no glass blur, no fixed gradient background, no endless pulses, lighter shadows",
+  "draw work while scrolling: home 96 -> 52 ms, log 186 -> 36 ms (docs/perf_before.txt / perf_after.txt)",
+  "- Android full screen (status + nav bars hidden, swipe shows them), keyboard-aware margins, settings toggle \"الشاشة\"",
+  "- New test tests/t_v16.js (16); t_board regex fix"
  ],
  "android": {
-  "v": "1.4.0",
-  "code": 6,
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.4.0/SHETA.apk",
-  "sha256": "d9872dbe425621bd8745453fa1ba312aefbe0ab3931daaff5dfc50c0e3e8082e",
-  "size": 4452152
+  "v": "1.5.0",
+  "code": 7,
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.0/SHETA.apk",
+  "sha256": "0d91901ae4bb5fe26d58108d147f5a9e0645adfbfea79527bd988ac59c2f395a",
+  "size": 4456327
  },
  "windows": {
-  "v": "1.4.0",
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.4.0/SHETA-Setup-1.4.0.exe",
-  "sha256": "e5bff91ed47dba7b0f314266e0351f733e59f09fde6483e8ea64b7909c065635",
-  "size": 82209618
+  "v": "1.5.0",
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.0/SHETA-Setup-1.5.0.exe",
+  "sha256": "9683f2659a452267d1bbc3d9b7357f2dfb921ad3c4591f86e6b26dc7d96e2867",
+  "size": 82212205
  }
 }
