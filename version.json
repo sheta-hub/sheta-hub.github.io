@@ -1,21 +1,26 @@
 {
- "version": "1.5.2",
+ "version": "1.6.0",
  "date": "2026-10-13",
  "notes": [
-  "إصلاح ربط تليجرام: الزرار مبقاش بيتداس مرتين، ولو حصل تعارض بيحاول تاني لوحده",
-  "وانت بتربط بيظهرلك «بيربط... استنى ثواني»"
+  "ورديات: كل واحد يفتح ورديته بعدّ الدرج ويقفلها بعدّ الدرج",
+  "خانة «رصيد الدرج» في الرئيسية للمالك بس، مستخبية لحد ما تلمسها",
+  "البرنامج بيطلب الكود كل ما يتفتح أو يرجع من الخلفية، وبصمة لكل جهاز",
+  "عين جنب الباسورد والكود عشان تشوف اللي كتبته",
+  "أي حد يمسح عملية بكوده هو، والعملية بتفضل في السجل باسمه",
+  "تصوير إيصال الماكينة: البرنامج يقرا الإيصال من غير نت وانت تكتب المكسب",
+  "زرار المصروف وبيع الجهاز بيفتحوا على طول من غير اختيارات زيادة"
  ],
  "android": {
-  "v": "1.5.2",
-  "code": 9,
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.2/SHETA.apk",
-  "sha256": "58f90ffbe4cf1b3bcf870f0f5f5e3aca897e38adf32fb3dfee9f4e58c7b0f5d5",
-  "size": 4456788
+  "v": "1.6.0",
+  "code": 10,
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.6.0/SHETA.apk",
+  "sha256": "91cdb9b37a685bd9b185c36dc7bcbe9345070f27df0d14d5469094d78ceb2257",
+  "size": 10159682
  },
  "windows": {
-  "v": "1.5.2",
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.2/SHETA-Setup-1.5.2.exe",
-  "sha256": "ae5c728a77b47a3f6878534c737225c6eec64bc62c753f02a01f81a1006ecc41",
-  "size": 82212739
+  "v": "1.6.0",
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.6.0/SHETA-Setup-1.6.0.exe",
+  "sha256": "8012f3f1298825bcb2fcc549ab9a5855e190e83229723335fc15841f6ff281e4",
+  "size": 95224258
  }
 }
