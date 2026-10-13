@@ -1,23 +1,21 @@
 {
- "version": "1.5.0",
- "date": "2026-10-12",
+ "version": "1.5.1",
+ "date": "2026-10-13",
  "notes": [
-  "شكل جديد للموبايل بنفس ألوان اللابتوب",
-  "الرئيسية فيها الشغل بس: الصيانة والأجهزة والخطوط، وكل قسم فوقه الحالات بالعدد",
-  "التطبيق بقى أنعم وأسرع وانت بتنزل وبتتنقل",
-  "ملي الشاشة: شريط الساعة والزراير بيستخبوا، وتقدر ترجّعها من الإعدادات ← الشاشة"
+  "إصلاح ربط تليجرام (كان بيطلع «ماقدرتش أربط: tg 400»)",
+  "تقدر تلزق رسالة BotFather كلها، والتطبيق بياخد الكود منها لوحده"
  ],
  "android": {
-  "v": "1.5.0",
-  "code": 7,
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.0/SHETA.apk",
-  "sha256": "0d91901ae4bb5fe26d58108d147f5a9e0645adfbfea79527bd988ac59c2f395a",
-  "size": 4456327
+  "v": "1.5.1",
+  "code": 8,
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.1/SHETA.apk",
+  "sha256": "e26f864eaf42e23cafd632a47eebe38beca92f6f7ed2e7f2fb4b9f16f5fbc0b9",
+  "size": 4456564
  },
  "windows": {
-  "v": "1.5.0",
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.0/SHETA-Setup-1.5.0.exe",
-  "sha256": "9683f2659a452267d1bbc3d9b7357f2dfb921ad3c4591f86e6b26dc7d96e2867",
-  "size": 82212205
+  "v": "1.5.1",
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.5.1/SHETA-Setup-1.5.1.exe",
+  "sha256": "29842c997b3a07e74eda4be31dbd116ac7354247bb9d4d41750b47b64a27d479",
+  "size": 82213237
  }
 }
