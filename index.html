@@ -44,4 +44,7 @@ fetch('version.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(j=
  if(j.windows){document.getElementById('dlW').href=j.windows.url;if(j.windows.size)document.getElementById('sW').textContent='ويندوز 10 و11 · '+Math.round(j.windows.size/1048576)+' ميجا'}
  if(j.notes&&j.notes.length){const l=document.getElementById('nl');j.notes.forEach(n=>{const li=document.createElement('li');li.textContent=n;l.appendChild(li)});document.getElementById('nw').hidden=false}
 }).catch(()=>{});
+
+/* phone download from this site (github.com links open the GitHub app and ask to sign in) */
+setTimeout(()=>fetch('/dl/apk.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(a=>fetch('/version.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(v=>{if(a.version===v.version){const e=document.getElementById('dlA');if(e)e.href='/dl/SHETA.apk?v='+a.version}})).catch(()=>{}),1200);
 </script></body></html>
