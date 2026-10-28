@@ -1,33 +1,38 @@
 <!doctype html>
-<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow,noarchive">
 <title>تحميل SHETA</title>
 <style>
-body{margin:0;font-family:system-ui,sans-serif;background:#F4F5FF;color:#1A1B3A;text-align:center}
+body{margin:0;font-family:system-ui,"Segoe UI",Tahoma,sans-serif;background:#F4F5FF;color:#1A1B3A;text-align:center}
 .w{max-width:460px;margin:0 auto;padding:40px 18px}
-h1{font-size:24px;margin:0 0 8px}p{color:#5b5f80;line-height:1.8;margin:6px 0}
-a.b{display:block;text-decoration:none;color:#fff;border-radius:18px;padding:16px;margin:14px 0 0;font-size:18px;font-weight:700}
+h1{font-size:26px;margin:0 0 6px}
+p{color:#5b5f80;line-height:1.8;margin:6px 0}
+.v{display:inline-block;background:#e4e7ff;color:#2b2d5a;border-radius:20px;padding:3px 14px;font-size:14px;margin-bottom:10px}
+a.b{display:block;text-decoration:none;color:#fff;border-radius:18px;padding:18px 16px;margin:16px 0 0;font-size:20px;font-weight:700}
+a.b small{display:block;font-size:13px;font-weight:400;opacity:.85;margin-top:4px}
 .a{background:#0B7D61}.wn{background:#2b2d5a}
-.s{font-size:13px;color:#8a8db0;margin-top:22px}
-</style></head><body><div class="w">
+.s{font-size:13px;color:#8a8db0;margin-top:26px;line-height:1.9}
+</style>
+</head>
+<body>
+<div class="w">
 <h1>برنامج SHETA</h1>
-<p id="msg">التحميل هيبدأ لوحده خلال ثانية...</p>
-<p>لو مابدأش، دوس على الزرار:</p>
-<a class="b a" id="A" href="https://github.com/sheta-hub/sheta-hub.github.io/releases/latest/download/SHETA.apk">تحميل للموبايل</a>
-<a class="b wn" id="W" href="https://sheta-hub.github.io/">تحميل للابتوب</a>
-<p class="s">بعد التحميل: افتح الملف ودوس «تثبيت». أول مرة بس، لو الموبايل قال «غير مسموح»: الإعدادات ← «السماح من المصدر ده».</p>
+<div class="v" id="ver">آخر نسخة</div>
+<p>اختار الجهاز اللي عايز تنزّل عليه:</p>
+<a class="b a" id="A" href="https://github.com/sheta-hub/sheta-hub.github.io/releases/latest/download/SHETA.apk">تحميل للموبايل (أندرويد)<small id="As">ملف APK</small></a>
+<a class="b wn" id="W" href="https://sheta-hub.github.io/">تحميل للابتوب (ويندوز)<small id="Ws">ملف تثبيت exe</small></a>
+<p class="s">بعد التحميل: افتح الملف ودوس «تثبيت».<br>الموبايل أول مرة بس، لو قال «غير مسموح»: الإعدادات ← «السماح من المصدر ده».<br>لو البرنامج متثبّت قبل كده، هيتحدّث وبياناتك زي ما هي.</p>
 </div>
 <script>
 (async()=>{
-  const ua=navigator.userAgent, A=document.getElementById('A'), W=document.getElementById('W');
-  try{const v=await (await fetch('/version.json?t='+Date.now(),{cache:'no-store'})).json();
-    if(v.android&&v.android.url)A.href=v.android.url; if(v.windows&&v.windows.url)W.href=v.windows.url;
-    if(v.version)document.title='تحميل SHETA '+v.version;}catch(e){}
-  const go=u=>setTimeout(()=>{location.href=u},600);
-  if(/Android/i.test(ua)){go(A.href)}
-  else if(/Windows/i.test(ua)){go(W.href)}
-  else document.getElementById('msg').textContent='اختار جهازك:';
+ const A=document.getElementById('A'),W=document.getElementById('W'),mb=n=>n?' · '+Math.round(n/1048576)+' ميجا':'';
+ try{const v=await (await fetch('/version.json?t='+Date.now(),{cache:'no-store'})).json();
+  if(v.android&&v.android.url){A.href=v.android.url;document.getElementById('As').textContent='ملف APK'+mb(v.android.size)}
+  if(v.windows&&v.windows.url){W.href=v.windows.url;document.getElementById('Ws').textContent='ملف تثبيت exe'+mb(v.windows.size)}
+  if(v.version){document.title='تحميل SHETA '+v.version;document.getElementById('ver').textContent='نسخة '+v.version}}catch(e){}
 })();
 </script>
-</body></html>
+</body>
+</html>
