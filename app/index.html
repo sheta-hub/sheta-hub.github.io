@@ -33,6 +33,9 @@ a.b small{display:block;font-size:13px;font-weight:400;opacity:.85;margin-top:4p
   if(v.windows&&v.windows.url){W.href=v.windows.url;document.getElementById('Ws').textContent='ملف تثبيت exe'+mb(v.windows.size)}
   if(v.version){document.title='تحميل SHETA '+v.version;document.getElementById('ver').textContent='نسخة '+v.version}}catch(e){}
 })();
+
+/* phone download from this site (github.com links open the GitHub app and ask to sign in) */
+setTimeout(()=>fetch('/dl/apk.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(a=>fetch('/version.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(v=>{if(a.version===v.version){const e=document.getElementById('A');if(e)e.href='/dl/SHETA.apk?v='+a.version}})).catch(()=>{}),1200);
 </script>
 </body>
 </html>
