@@ -46,5 +46,5 @@ fetch('version.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(j=
 }).catch(()=>{});
 
 /* phone download from this site (github.com links open the GitHub app and ask to sign in) */
-setTimeout(()=>fetch('/dl/apk.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(a=>fetch('/version.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(v=>{if(a.version===v.version){const e=document.getElementById('dlA');if(e)e.href='/dl/SHETA.apk?v='+a.version}})).catch(()=>{}),1200);
+setTimeout(()=>fetch('/dl/apk.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(a=>fetch('/version.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(v=>{if(a.version===v.version){const e=document.getElementById('dlA');if(e)e.href='/dl/SHETA.apk?v='+a.version}})).catch(()=>{}),300);
 </script></body></html>
