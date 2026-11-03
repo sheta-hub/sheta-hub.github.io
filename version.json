@@ -1,21 +1,20 @@
 {
- "version": "1.6.14",
- "date": "2026-11-01",
+ "version": "1.6.15",
+ "date": "2026-11-03",
  "notes": [
-  "إصلاح: كود المالك مايضيعش لو اتعمل على جهاز وقت ما جهاز تاني بيزامن الأكواد",
-  "إصلاح: كلمة «جهاز» كانت بتظهر ناقصة في تنبيهات الرئيسية"
+  "إصلاح: لو باسورد حساب المحل اتغيّر من رابط «نسيت الباسورد»، الأجهزة الجديدة كانت بتطلب كود مالك جديد والأكواد مابتتزامنش. دلوقتي أول جهاز يدخل بالباسورد الجديد بيرجّع الأكواد لكل الأجهزة"
  ],
  "android": {
-  "v": "1.6.14",
-  "code": 24,
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.6.14/SHETA.apk",
-  "sha256": "d4d62db7ea521e60f20bf92c6911082b30212c7f4c7f8a62cb829555b7d66855",
-  "size": 10264926
+  "v": "1.6.15",
+  "code": 25,
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.6.15/SHETA.apk",
+  "sha256": "87a159b044b0736d69700dc06afdbf43e3a73fdef6d5bbdf1671aa6027788f86",
+  "size": 10266880
  },
  "windows": {
-  "v": "1.6.14",
-  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.6.14/SHETA-Setup-1.6.14.exe",
-  "sha256": "4ba5d171644f3dbcb2224d8e644e1e8a13e3f6dcb3711c3c2ff9b16842784c1f",
-  "size": 95295684
+  "v": "1.6.15",
+  "url": "https://github.com/sheta-hub/sheta-hub.github.io/releases/download/v1.6.15/SHETA-Setup-1.6.15.exe",
+  "sha256": "5a7c595bdbb72aced51b2512ba25b8887ead04636a1d24d2ad162d739a8216ca",
+  "size": 95297242
  }
 }
